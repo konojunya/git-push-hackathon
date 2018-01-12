@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9A30F5B220089F4200B38884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30F5B120089F4200B38884 /* AppDelegate.swift */; };
-		9A30F5B420089F4200B38884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30F5B320089F4200B38884 /* ViewController.swift */; };
 		9A30F5B720089F4200B38884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A30F5B520089F4200B38884 /* Main.storyboard */; };
 		9A30F5B920089F4200B38884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A30F5B820089F4200B38884 /* Assets.xcassets */; };
 		9A30F5BC20089F4200B38884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A30F5BA20089F4200B38884 /* LaunchScreen.storyboard */; };
+		9A30F5C82008A2C600B38884 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A30F5C72008A2C600B38884 /* HomeViewController.swift */; };
+		9A30F5D02008A99700B38884 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CA2008A99700B38884 /* ObjectMapper.framework */; };
+		9A30F5D12008A99700B38884 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CB2008A99700B38884 /* Result.framework */; };
+		9A30F5D22008A99700B38884 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CC2008A99700B38884 /* Alamofire.framework */; };
+		9A30F5D32008A99700B38884 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CD2008A99700B38884 /* AlamofireImage.framework */; };
+		9A30F5D42008A99700B38884 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CE2008A99700B38884 /* APIKit.framework */; };
+		9A30F5D52008A99700B38884 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A30F5CF2008A99700B38884 /* OAuthSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A30F5AE20089F4200B38884 /* github-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A30F5B120089F4200B38884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A30F5B320089F4200B38884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A30F5B620089F4200B38884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A30F5B820089F4200B38884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A30F5BB20089F4200B38884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A30F5BD20089F4200B38884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A30F5C72008A2C600B38884 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9A30F5CA2008A99700B38884 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		9A30F5CB2008A99700B38884 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		9A30F5CC2008A99700B38884 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		9A30F5CD2008A99700B38884 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		9A30F5CE2008A99700B38884 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		9A30F5CF2008A99700B38884 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A30F5D02008A99700B38884 /* ObjectMapper.framework in Frameworks */,
+				9A30F5D12008A99700B38884 /* Result.framework in Frameworks */,
+				9A30F5D22008A99700B38884 /* Alamofire.framework in Frameworks */,
+				9A30F5D32008A99700B38884 /* AlamofireImage.framework in Frameworks */,
+				9A30F5D42008A99700B38884 /* APIKit.framework in Frameworks */,
+				9A30F5D52008A99700B38884 /* OAuthSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				9A30F5B020089F4200B38884 /* github-client */,
 				9A30F5AF20089F4200B38884 /* Products */,
+				9A30F5C92008A99600B38884 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,43 @@
 		9A30F5B020089F4200B38884 /* github-client */ = {
 			isa = PBXGroup;
 			children = (
+				9A30F5C52008A29300B38884 /* view */,
 				9A30F5B120089F4200B38884 /* AppDelegate.swift */,
-				9A30F5B320089F4200B38884 /* ViewController.swift */,
 				9A30F5B520089F4200B38884 /* Main.storyboard */,
 				9A30F5B820089F4200B38884 /* Assets.xcassets */,
 				9A30F5BA20089F4200B38884 /* LaunchScreen.storyboard */,
 				9A30F5BD20089F4200B38884 /* Info.plist */,
 			);
 			path = "github-client";
+			sourceTree = "<group>";
+		};
+		9A30F5C52008A29300B38884 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9A30F5C62008A2AA00B38884 /* Home */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9A30F5C62008A2AA00B38884 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A30F5C72008A2C600B38884 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A30F5C92008A99600B38884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A30F5CC2008A99700B38884 /* Alamofire.framework */,
+				9A30F5CD2008A99700B38884 /* AlamofireImage.framework */,
+				9A30F5CE2008A99700B38884 /* APIKit.framework */,
+				9A30F5CF2008A99700B38884 /* OAuthSwift.framework */,
+				9A30F5CA2008A99700B38884 /* ObjectMapper.framework */,
+				9A30F5CB2008A99700B38884 /* Result.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A30F5B420089F4200B38884 /* ViewController.swift in Sources */,
+				9A30F5C82008A2C600B38884 /* HomeViewController.swift in Sources */,
 				9A30F5B220089F4200B38884 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +324,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH75B2UCHQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "github-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-client";
@@ -291,6 +343,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH75B2UCHQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "github-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-client";
